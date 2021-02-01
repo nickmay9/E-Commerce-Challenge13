@@ -31,6 +31,12 @@ const productData = [
     stock: 22,
     category_id: 2,
   },
+  {
+    product_name: 'Polo Shirt',
+    price: 19.99,
+    stock: 12,
+    category_id: 1
+  }
 ];
 
 const seedProducts = () => Product.bulkCreate(productData);
